@@ -1,0 +1,7 @@
+The Intracity Fare Estimation poses a grave threat with a lot of missing values.
+By looking carefully we will come to understand that only for few vechiles there is luggage and so on.Therefore the missing values have to be manually resolved.
+Imputation can also be used.
+Now analysis is very important, if we look carefully in the jupyter notebook or the plots we can see there are 6 cities and farre vary according to the city.
+This ias can be exploited well and by using adequate algorithm required efficiency can be obtained.
+
+Here also we have used XGboost. GridsearchCV was used to find the best matching hyperparameters and thus efficiency of nearly 98.1% (R2 score) was achieved.

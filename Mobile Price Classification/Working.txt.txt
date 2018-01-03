@@ -1,0 +1,11 @@
+1. For the mobile classification problem , we have to find whether the prices are high or low for a mobile with a particular set of given features.
+Missing values - Na
+We train the model on the training data and use cross-validation for improving performance.
+Use scatter plots and histograms to find out any relationship between any features.
+Use of correlation matrix and thereby finding out the most important features.
+Finding outliers and eliminating them for better results.
+Regularization in order to prevent overfitting.
+
+
+The most efficient one was Support Vector Machines and yielded efficiency of 96.4%.
+Others like KNN,Random Forest and such yielded above 90% but not good enough.

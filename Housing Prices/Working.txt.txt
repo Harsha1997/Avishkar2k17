@@ -1,0 +1,21 @@
+Housing Prices is a regression problem which requires lots of exploratory data analysis to do.
+First we have to merge all the builders,their corresponding works which are haywire and distributed randomnly across the files. 
+So we have to get all in one place and then work it up.
+Python scripts for:
+
+a) merger, ultimate_merge :- For merging all the data obtained
+b)hdT : - The main file where all coding is done
+
+
+We have had the following obstacles while solving them:
+Missing Values- Yes
+Ans) Imputation.
+     Also some values are replaced by their mean or median based on outliers and so, also some strings were handled as follows:
+	Label Encoding - for those which are non numerical
+	(Hot encoding (optional))
+
+We also had to find if there were any correlations and we have used the jupyter notebooks for our aid.
+
+We used Random forests with varying depth and estimators got efficiency upto 90%.
+
+But the best was to use XGBoost- by tuning the hyperparameters carefully we can craft a precise understanding of the Housing problem and achieved R2 score of about (97.2%)
